@@ -1,0 +1,58 @@
+/* style.css */
+/* --- Components design --- */
+/*@import url("components/avatar.css");
+@import url("components/dropdown.css");
+@import url("components/badge.css");*/
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/tabs.css");
+@import url("layouts/dashboard.css");
+@import url("layouts/saas.css");
+/*
+@import url("components/list.css");*/
+
+
+h1, h2, h3 {
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  font-family: 'Sniglet', cursive;
+  font-weight: light;
+  margin: 0;
+  background: rgb(208,236,250);
+  color: rgb(100,100,100);
+  font-size: 16px;
+}
+
+#footer{
+  padding: 30px;
+  background-color: #0077B5;
+  color: lightgrey;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 0;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 32px;
+}
+#footer a:hover {
+  color: white;
+}
+
+}
+
+.navbar-minimal {
+  height: 70px;
+  background: white;
+  box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-minimal img {
+  width: 50px;
+  height: 50px;
+}

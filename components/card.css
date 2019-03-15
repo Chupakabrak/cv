@@ -1,0 +1,32 @@
+.card {
+  position: center;
+  background: white;
+  background-size: 25px;
+  color: black;
+  padding: 16px;
+  margin: 16px 0px;
+  height: 320px;
+  transition: all 0.5s ease;
+  align-items: center;
+  border-radius: 10%;
+
+}
+
+.card:hover{
+	background: #0077B5;
+  color: white;
+
+}
+
+.card img {
+  margin-bottom: 20px;
+  max-width: 200px;
+  max-height: 200px;
+
+}
+
+.card p, h2 {
+  text-align: center;
+}
+
+

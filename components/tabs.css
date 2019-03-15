@@ -1,0 +1,35 @@
+.tabs {
+  background: #006097;
+  color: black;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px 0 10px
+}
+
+.tabs h3 {
+  font-size: 22px;
+  opacity: 0.5;
+  margin-top: 10px;
+  color: black;
+}
+
+.tabs p {
+  opacity: 0.5;
+}
+
+.tabs-item {
+  background: rgb(208,236,250);
+  flex: 0 0 25%;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.tabs-item.active {
+  background: white;
+  color: black;
+}
+
+
+
+
